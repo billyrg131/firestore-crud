@@ -1,0 +1,87 @@
+body {
+  background-color: blueviolet;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.Div {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 40px;
+  background-color: greenyellow;
+  border: 2px solid white;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.btnDiv {
+  display: grid;
+  justify-items: center;
+  grid-template-areas: 'edit delete';
+  font-size: 20px;
+}
+.btnDel {
+  background-color: crimson;
+  color: white;
+  font-weight: bolder;
+  grid-area: delete;
+  width: 100px;
+  font-size: 18px;
+}
+.btnEdit {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  grid-area: edit;
+  width: 100px;
+  font-size: 18px;
+}
+/* Styling createData components */
+.createDiv {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-gap: 10px;
+  justify-items: center;
+  margin-top: 50px;
+  border: 2px solid white;
+}
+.createh1 {
+  text-align: center;
+  font-size: 27px;
+}
+.nameInput,
+.skillInput {
+  width: 30vw;
+  padding: 10px;
+}
+.nameInput,
+.skillInput::placeholder {
+  font-size: 17px;
+}
+.createBtn {
+  font-size: 18px;
+  background-color: aqua;
+  height: 3.5rem;
+}
+/* Styling editData components */
+.editDiv {
+  display: grid;
+  justify-items: center;
+  grid-gap: 10px;
+}
+.edith1 {
+  font-size: 27px;
+}
+.editName,
+.editSkill {
+  width: 30vw;
+  padding: 6px;
+}
+.editName,
+.editSkill::placeholder {
+  font-size: 17px;
+}
+.editBtn {
+  font-size: 18px;
+  background-color: aqua;
+  padding: 6px;
+}
